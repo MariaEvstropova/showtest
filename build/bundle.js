@@ -10042,7 +10042,7 @@ var Content = function (_React$Component) {
                     modalShown: true,
                     modalData: data
                 });
-                var content = document.querySelector(".content");
+                var content = document.querySelector("body");
                 content.classList.add("fixed");
             }
         }
@@ -10328,7 +10328,7 @@ var ModalWindow = function (_React$Component) {
             this.setState({
                 shown: false
             });
-            var content = document.querySelector(".content");
+            var content = document.querySelector("body");
             content.classList.remove("fixed");
         }
     }, {
