@@ -91,11 +91,12 @@ body {
   opacity: .6;
 }
 .filter-option input {
+  border: 1px solid #D3D3D3;
   padding: 5px;
   width: 100%;
 }
 .filter-option input:focus {
-  outline: #fee133 auto 5px;
+  outline: #fee133 auto 1px;
 }
 
 /* Непосредственно расписание */
@@ -115,9 +116,6 @@ tbody tr:hover {
 }
 tr.finished {
   background-color: rgba(211, 211, 211, 0.5);
-}
-tr.finished td:last-child {
-  text-align: center;
 }
 tr.finished:hover {
   background-color: rgba(211, 211, 211, 0.5);
